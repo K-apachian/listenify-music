@@ -195,7 +195,7 @@ const SongList = withRouter(({ songsData, userData, getSongs, ...props }) => {
                 ) : (
                   <>
                     <li>
-                      <Link to="/" title="Disabled ! Login To Add">
+                      <Link to="/error" title="Disabled ! Login To Add">
                         <Button variant="info" disabled>
                           Add New Song
                         </Button>
@@ -214,7 +214,7 @@ const SongList = withRouter(({ songsData, userData, getSongs, ...props }) => {
                 ) : (
                   <>
                     <li>
-                      <Link to="/" title="Disabled ! Login To Delete">
+                      <Link to="/error" title="Disabled ! Login To Delete">
                         <Button variant="warning" disabled>
                           Delete Songs
                         </Button>

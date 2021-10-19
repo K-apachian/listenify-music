@@ -98,7 +98,7 @@ function AllRouter() {
           <Musicbar />
           <Switch>
             <AboutPlayer exact strict path="/about" />
-            <Home exact strict path="/home" />
+            <Home exact strict path="/" />
             <RegiFormik exact strict path="/register" />
             <SongList exact strict path="/SongList" />
             <InfoPage exact strict path="/info" />
