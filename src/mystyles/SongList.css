@@ -1,0 +1,94 @@
+/* .mysongs {
+  padding-top: 70px;
+}
+
+.songaccordion {
+  margin: auto;
+  padding: auto;
+  width: auto;
+  text-align: center;
+}
+
+.left{
+  margin-right: auto;
+}
+.right {
+  justify-content: right;
+}
+ */
+
+.songlist {
+  background-image: url("../images/music2.jpg");
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.songcontainer {
+  padding-top: 35px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+#searchSong {
+  border-radius: 25px !important;
+  background-color: orange;
+}
+
+.songaccordion {
+  margin: auto;
+  width: auto;
+  text-align: center;
+}
+
+.editbuttons {
+  list-style-type: none;
+  justify-content: center;
+  padding: 5px;
+  text-indent: 1cm;
+  display: inline-flex;
+}
+
+.scrollbar {
+  /* margin-left: 30px; */
+  float: left;
+  height: 335px;
+  width: 100%;
+  /* background: #fff; */
+  overflow-y: scroll;
+  /* margin-bottom: 25px; */
+}
+
+.scrollbar-deep-blue::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.scrollbar-deep-blue::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar-deep-blue::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(330deg, #e0c3fc 0%, #8ec5fc 100%);
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.scrollbar-deep-blue {
+  scrollbar-color: #8ec5fc #f5f5f5;
+}
+
+@media only screen and (max-width: 600px) {
+  .editbuttons {
+    list-style-type: none;
+    margin-right: auto;
+    line-height: 3rem;
+    display: inline-flex;
+    padding-right: 50px;
+  }
+}

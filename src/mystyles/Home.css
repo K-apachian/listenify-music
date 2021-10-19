@@ -1,0 +1,45 @@
+.home{
+  background-image: url("../images/music1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  width: auto;
+  height: 100vh;
+  align-content: center;
+  font-family: "Lato", sans-serif;
+}
+
+.homecontainer{
+  padding-top: 30px;
+}
+.mycard {
+  background: transparent !important;
+  border: none;
+  color: cyan;
+  text-align: center;
+}
+
+.quote {
+  text-shadow: 2cm;
+  font-style: italic;
+  word-break: break-all;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card-login {
+  color: firebrick;
+}
+
+.card-signup {
+  color: midnightblue;
+}
+.nav-link {
+  color: crimson;
+}
+
+@media only screen and (max-width:753px){
+  .home{
+    height: 86.6vh;
+  }
+}

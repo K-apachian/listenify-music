@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "email": "kartiktelikicherla@gmail.com",
+      "password": "1234",
+      "firstName": "Kartik",
+      "lastName": "Telikicherla",
+      "locationn": "Vizianagaram",
+      "phone": "6200585003",
+      "id": 1
+    },
+    {
+      "email": "nick.rj@github.io",
+      "password": "4567",
+      "firstName": "nikhil",
+      "lastName": "raj",
+      "locationn": "jamshed",
+      "phone": "12345",
+      "id": 2
+    },
+    {
+      "email": "abc@gmail",
+      "password": "abc4242",
+      "firstName": "kkr",
+      "lastName": "csk",
+      "locationn": "chennai",
+      "phone": "1234567",
+      "id": 3
+    },
+    {
+      "email": "kartik@github.io",
+      "password": "kartik3166",
+      "firstName": "Kartik",
+      "lastName": "Telikicherla",
+      "locationn": "vzm",
+      "phone": "62005",
+      "id": 4
+    },
+    {
+      "email": "johnabraham@gmail.com",
+      "password": "john",
+      "firstName": "John",
+      "lastName": "Abraham",
+      "locationn": "Ranchi",
+      "phone": "00007",
+      "id": 5
+    },
+    {
+      "email": "kiran20999@gmail.com",
+      "password": "00000",
+      "firstName": "KIRAN",
+      "lastName": "SATYA",
+      "locationn": "CHENNAI",
+      "phone": "284994",
+      "id": 6
+    }
+  ]
+}

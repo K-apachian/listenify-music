@@ -1,0 +1,25 @@
+.myaboutcard {
+  background: transparent !important;
+  border: none;
+  color: cyan;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.aboutcard-signup {
+  color: midnightblue;
+}
+
+.aboutcard-login {
+  color: firebrick;
+}
+
+.nav-link {
+  color: crimson;
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutcard-image {
+      display: none;
+    }
+  }

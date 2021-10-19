@@ -1,0 +1,77 @@
+{
+  "songs": [
+    {
+      "id": 2,
+      "title": "Master The Blaster",
+      "album": "Master",
+      "singer": "Anirudh Ravichander",
+      "songlength": "1:32",
+      "genre": "Pop",
+      "songurl": "https://www.youtube.com/watch?v=PrOhbi1S5Gk"
+    },
+    {
+      "id": 3,
+      "title": "Psycho Saiyaan",
+      "album": "Saaho",
+      "singer": "Dhvani Bhanushali,Anirudh Ravichander",
+      "songlength": "2:45",
+      "genre": "Jazz",
+      "songurl": "https://www.youtube.com/watch?v=I7HwFFJGWhw"
+    },
+    {
+      "id": 4,
+      "title": "Kanule Kanele",
+      "album": "David",
+      "singer": "Anirudh Ravichander",
+      "songlength": "4:45",
+      "genre": "Romantic",
+      "songurl": "https://www.youtube.com/watch?v=ftpqh4QJ20U"
+    },
+    {
+      "id": 5,
+      "title": "Dinchak",
+      "album": "RED",
+      "singer": "Keerthana Sharma,Kishore Tirumala",
+      "songlength": "5:19",
+      "genre": "Rock",
+      "songurl": "https://www.youtube.com/watch?v=UN8ticAFu6E"
+    },
+    {
+      "title": "Yellae Lama",
+      "album": "7th Sense",
+      "singer": "Harris Jayaraj",
+      "songlength": "5:20",
+      "genre": "Pop",
+      "songurl": "https://youtu.be/rRdVn7hed_g",
+      "id": 6
+    },
+    {
+      "title": "Poopol Poopol",
+      "album": "Minnalae",
+      "singer": "Tippu,Karthik",
+      "songlength": "1:56",
+      "genre": "Romantic",
+      "songurl": "https://www.youtube.com/watch?v=Xme4suiErGA",
+      "text": "j",
+      "id": 11
+    },
+    {
+      "title": "Yedhane Koiyakae",
+      "album": "Surya S/o of Krishnan",
+      "singer": "Harris Jayaraj,Benny Dayal",
+      "songlength": "5:15",
+      "genre": "Romantic",
+      "songurl": "https://www.youtube.com/watch?v=mIt2l-5vjFw",
+      "id": 12
+    },
+    {
+      "title": "Maine Royaan (Lofi Remix)",
+      "album": "Tanveer Evan",
+      "singer": "Tanveer Evan",
+      "songlength": "5:05",
+      "genre": "Blues",
+      "songurl": "https://www.youtube.com/results?search_query=maine+royaan",
+      "id": 13
+    }
+  ]
+}

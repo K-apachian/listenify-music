@@ -1,0 +1,84 @@
+.dashboard {
+  background-image: url("../images/trek.jpg");
+  width: auto;
+  height: 86.6vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  color: #f5f5f5;
+}
+
+.dashcontainer {
+  color: black;
+  padding-top: 35px;
+}
+
+.dash-card {
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: dodgerblue;
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
+  color: black;
+}
+
+.dash-card :hover {
+  border-radius: 10px;
+  transition: 2s;
+}
+.card-text {
+  text-align: center !important;
+  font-size: 22px;
+}
+
+.mybuttons {
+  list-style-type: none;
+  justify-content: center;
+  text-indent: 1cm;
+  padding: 20px;
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 770px) {
+  .dashboard {
+    width: auto;
+    height: 150vh;
+  }
+  .mybuttons {
+    list-style-type: none;
+    justify-content: center;
+    text-indent: 1cm;
+    text-align: center;
+    display: inline;
+  }
+}
+
+/*EDIT USER DETAILS STYLES FROM HERE*/
+
+.editdashboard {
+  background-image: url("../images/musicbackground.jpg");
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.editbuttons {
+  list-style-type: none;
+  margin-right: auto;
+  line-height: 3rem;
+  display: inline-flex;
+}
+
+.edit-card {
+  width: 60%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 840px) {
+  .edit-card {
+    width: 86%;
+  }
+}

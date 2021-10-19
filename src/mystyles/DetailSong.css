@@ -1,0 +1,33 @@
+.detailcard {
+  color: black !important;
+}
+.detaildata{
+  font-size: 20px;
+}
+.detaillist {
+  list-style-type: none;
+  margin-right: auto;
+  line-height: 3rem;
+  display: inline-table;
+}
+
+.detailbuttons{
+  list-style-type: none;
+  margin-right: auto;
+  line-height: 3rem;
+  display: inline-flex;
+}
+@media only screen and (max-width: 1000px) {
+  .detaillist {
+    list-style-type: none;
+    margin-right: auto;
+    line-height: 3rem;
+    display: inline;
+  }
+  .detailbuttons{
+    list-style-type: none;
+    margin-right: auto;
+    line-height: 3rem;
+    display: inline-table;
+  }
+}

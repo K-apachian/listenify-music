@@ -1,0 +1,22 @@
+.errorpage {
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.error-container {
+  padding-top: 50px;
+}
+.error-card {
+  width: 70%;
+  margin: auto;
+  border: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .errorcard-image {
+    display: none;
+  }
+}

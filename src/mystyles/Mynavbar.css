@@ -1,0 +1,25 @@
+
+.App-head h2{
+  padding: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left !important;
+}
+
+/* .mynavbar {
+  height: 100vh;
+} */
+
+.navlist {
+  margin-left: 50%;
+}
+
+@media only screen and (max-width: 600px){
+  .navlist{
+    height: 100vh;
+  }
+}
+
+.navlist Nav.Link {
+  display: inline-flex;
+}
+

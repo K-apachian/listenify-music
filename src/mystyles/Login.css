@@ -1,0 +1,57 @@
+.login {
+  background-image: url("../images/classicshow.jpg");
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.logincontainer {
+  padding-top: 120px;
+}
+
+.login-card {
+  width: 66%;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  background-color:lightslategray;
+}
+
+.card-buttons {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff !important;
+  font-size: 1rem;
+  margin:auto;
+}
+
+.card-buttons :hover {
+  cursor: pointer;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+@media only screen and (max-width: 840px) {
+  .logincontainer{
+    padding-top: 160px;
+  }
+  .login-card {
+    width: 86%;
+  }
+}

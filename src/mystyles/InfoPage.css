@@ -1,0 +1,22 @@
+.infopage {
+  background-image: url("../images/infopage.jpg");
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.infocontainer {
+  padding-top: 15px;
+}
+
+.abouthead {
+  color: gold;
+  font-size: 50px;
+}
+
+.aboutcard {
+  background-color: cornsilk;
+  margin-top: 25px;
+}

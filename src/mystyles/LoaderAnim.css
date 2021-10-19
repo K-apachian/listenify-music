@@ -1,0 +1,13 @@
+.loaderdiv {
+  /*   background-image: url("../images/LoaderImg.jpg"); */
+  background-color: #060b26;
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.loadcontainer {
+  padding-top: 180px;
+}
