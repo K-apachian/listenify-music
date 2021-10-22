@@ -48,7 +48,7 @@ class AddSongToPlaylist extends Component {
 
   backtoPlaylist() {
     this.props.history.push({
-      pathname: `https://listenify-player.herokuapp.com/playlists/${this.props.match.params.id}`,
+      pathname: `/playlists/${this.props.match.params.id}`,
       state: this.props.songsData,
     });
   }

@@ -49,7 +49,7 @@ const PlaylistViewComponent = withRouter(
     const playlistSongs = useHistory();
     const handlePlaylistData = (gotopath) => {
       playlistSongs.push({
-        pathname: `https://listenify-player.herokuapp.com/playlists/${match.params.id}/${gotopath}`,
+        pathname: `/playlists/${match.params.id}/${gotopath}`,
         state: [playlist, songsInPlaylist],
       });
     };

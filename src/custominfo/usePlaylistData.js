@@ -7,7 +7,7 @@ const usePlaylistData = (playlistID, songsObj) => {
 
   const fetchPlaylistData = (id) => {
     axios
-      .get(`http://localhost:3007/playlists/${id}`)
+      .get(`https://listenify-player.herokuapp.com/playlists/${id}`)
       .then((response) => {
         setPlaylist(response.data);
         getSongsFromPlaylist(response.data);

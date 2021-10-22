@@ -62,7 +62,7 @@ const PlaylistDashboard = withRouter(
     const playlistSongs = useHistory();
     const handlePlaylistData = (id) => {
       playlistSongs.push({
-        pathname: `https://listenify-player.herokuapp.com/playlists/${id}`,
+        pathname: `/playlists/${id}`,
         state: songsData,
       });
       console.log("SONGS DATA", songsData);
