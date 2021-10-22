@@ -40,7 +40,7 @@ class DeleteSongFromPlaylist extends Component {
 
   backtoPlaylist() {
     this.props.history.push({
-      pathname: `/playlists/${this.props.match.params.id}`,
+      pathname: `https://listenify-player.herokuapp.com/playlists/${this.props.match.params.id}`,
       state: this.props.songsData,
     });
   }
